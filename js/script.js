@@ -14,7 +14,7 @@ var matchName;
 
 name = prompt('Введите своё имя:');
 
-for (var i = 0; (i < ArrNames.length) && (!matchName); i++) {
+for (var i = 0; i < ArrNames.length; i++) {
 	
 	if (name == ArrNames[i]) matchName=ArrNames[i];
 }
